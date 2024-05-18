@@ -158,4 +158,23 @@ h3
     padding: 20px;
 }
 
+.certificate-container 
+{
+    display: flex; /* Enable flexbox for the container */
+    flex-wrap: wrap; /* Allow certificates to wrap to multiple lines */
+    justify-content: space-between; /* Distribute certificates evenly */
+}
 
+.certificate 
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px; /* Adjust margin for spacing between certificates */
+    text-align: center; 
+}
+
+.certificate img 
+{
+    width: 250px; /* Adjust width as needed */
+    height: auto;
+}
