@@ -1,279 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/site.css">
-        <link rel="shortcut icon" href="images/ZS.png" type="image/x-icon">
-        <title>Document</title>
-    </head>
-    <body>
-        <!-- ******************************* Top Image ***********************-->
-        <div class="top_container">
-            <!-- <img class="top_img" src="images/top_img.png" alt=""> -->
-            <h2 style="font-size: 4opx;"> Hii there! I'm Zaid Sarwar!</h2>
-            <!-- <h2>a <span class="soft">Soft</span>ware Engineer</h2> -->
-            <img class="middle_img" src="images/middle_img.gif" alt="">
-        </div>
-        <!-- *****************************************************************-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <!-- Main Container -->
+    <div>
 
-        <!-- ************************ Middle Container ***********************-->
-        <div class="middle_container">
 
-            <!-- *********************** Profile Image ********************** -->
-            <div class="profile">
-                <img src="images/profile.jpeg" alt="" class="profile">
-                <!-- <img src="images/1734765157031.jpg" alt="" class="profile"> -->
-                <h2>Hello.</h2>
-                <p>I am software engineer with excellent problem solving skills and ability to perform well in a team.<br> Passionate about coding, and mathematics.</p>
-            </div>
-            <hr>
-            <!-- ************************************************************* -->
+        <!-- Nav Bar -->
+        <nav class="navbar">
 
-            <!-- *************************** Skills ************************** -->
-            <div class="skills-container">
-                <h2 class="skills-heading">My Skills</h2>
-                <div class="skills-row">
-                    <!-- Languages -->
-                    <div class="skill-category">
-                        <button class="skills-btn">C/C++</button>
-                        <button class="skills-btn">Embedded C</button>
-                        <button class="skills-btn">Java</button>
-                        <button class="skills-btn">C#</button>
-                        <button class="skills-btn">JavaScript</button>
-                    </div>
-                    
-                    <!-- Frameworks -->
-                    <div class="skill-category">
-                        <button class="skills-btn">HTML</button>
-                        <button class="skills-btn">CSS</button>
-                        <button class="skills-btn">Springboot</button>
-                        <button class="skills-btn">ReactJs</button>
-                        <button class="skills-btn">Bootstrap</button>
-                    </div>
-                    
-                    <!-- Subjects -->
-                    <div class="skill-category">
-                        <button class="skills-btn">DotNet</button>
-                        <button class="skills-btn">Oracle Database</button>
-                        <button class="skills-btn">SQL</button>
-                        <button class="skills-btn">Networking</button>
-                        <button class="skills-btn">Operating System</button>
-                    </div>
-                    
-                    <!-- SIM technologies -->
-                    <div class="skill-category">
-                        <button class="skills-btn">Java Card</button>
-                        <button class="skills-btn">UICC</button>
-                        <button class="skills-btn">USIM</button>
-                        <button class="skills-btn">ISIM</button>
-                        <button class="skills-btn">OTA</button>
-                    </div>
-                    
-                    <!-- Standards -->
-                    <div class="skill-category">
-                        <button class="skills-btn">ETSI Standards</button>
-                        <button class="skills-btn">3GPP Standards</button>
-                        <button class="skills-btn">Global Platform</button>
-                        <button class="skills-btn">VsCode</button>
-                        <button class="skills-btn">Kiel</button>
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            
-            <hr>
-            <!-- ************************************************************* -->
-            
-            <!-- *************************** Work **************************** -->
-            <div>
-                <h2 class="h2">My Work.</h2>
-                <div class="work_row">
-                    <img src="images/code_img.png" alt="" class="code_img">
-                    <h3 class="h3">JavaCard</h3>
-                    <p> 
-                        <ul>
-                            <li>
-                                Developed SIM and USIM APIs in Java, enhancing the functionality and interoperability of SIM applications.
-                            </li>
-                            <li>
-                                Developed the Get-Status command in Java, enabling retrieval of SIM or SIM application status for better monitoring.
-                            </li>
-                            <li>
-                                Optimized load command in Java, achieving a 65% reduction in processing time for enhanced performance.
-                            </li>
-                            <li>
-                                Implemented the C-MAC security algorithm in Java, securing GP commands and ensuring data integrity.
-                            </li>                            
-                        </ul>    
-                    </p>
-                </div>
+            <!-- Logo -->
+            <div class="logo"> Zaid Sarwar </div>
 
-                <div class="work_row">
-                    <img src="images/code4_img.png" alt="" class="code2_img">
-                    <h3 class="h3">Oasis</h3>
-                    <p> 
-                        <ul>
-                            <li>
-                                Developed EAP (Extensible Authentication Protocol) features in C, contributing to secure SIM authentication processes.
-                            </li>
-                            <li>
-                                Developed GBA (Generic Bootstrapping Architecture) features in C to support secure network access and authentication.
-                            </li>
-                            <li>
-                                Designed an event registry system to manage events and notifications effectively.
-                            </li>
-                            <li>
-                                Developed the SHA security algorithm in C for data encryption on SIM cards, enhancing data protection.
-                            </li>                            
-                        </ul>    
-                    </p>
-                </div>
+            <!-- Switch Button -->
+            <!--<div class="switch">
+                <input type="checkbox" id="modeSwitch" />
+                <label for="modeSwitch" class="slider"></label>
+            </div>-->
 
-                <div class="work_row">
-                    <img src="images/code2_img.gif" alt="" class="code_img">
-                    <h3>Sim Guard</h3>
-                    <p>
-                        <ul>
-                            <li>
-                                Developed SimGuard, a testing tool in C# and .NET, designed to automate the testing of SIM card features such as OTA.
-                            </li>
-                            <li>
-                                Implemented functionality to generate and send commands to SIM cards automatically, streamlining the testing process and
-                                enhancing efficiency.
-                            </li>
-                            <li>
-                                Enabled comprehensive testing and validation of SIM features, improving reliability and performance in production
-                                environments.
-                            </li>
-                        </ul>                       
-                    </p>
-                </div>
-                <div class="work_row">
-                    <img src="images/code3_img.png" alt="" class="code2_img">
-                    <h3 class="h3">Amunra</h3>
-                    <p>
-                        <ul>
-                            <li>
-                                Developed the Get-Identity command in C, a key feature for 5G technology, improving device identification capabilities.
-                            </li>
 
-                            <li>
-                                Developed Suspend and Resume features in C, ensuring efficient management of SIM application states.
-                            </li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-            <hr>
-            <!-- ************************************************************* -->
-
-            <!-- *********************** Certificates ************************ -->
-            <div>
-                <h2 class="h2">My Certificates</h2>
-            </div>
-            <div class="certificate-container">
-                <div class="certificate">
-                    <a href="d:/Certificates/HTML.pdf" target="_blank">
-                        <img src="images/certificates/html.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Introduction to HTML5</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/CSS.pdf" target="_blank">
-                        <img src="images/certificates/css.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Introduction to CSS3</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/advanceCSS.pdf" target="_blank">
-                        <img src="images/certificates/advCss.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Advanced CSS</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/JavaScript.pdf" target="_blank">
-                        <img src="images/certificates/javaScript.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>JavaScript</p>
-                </div> 
-                <div class="certificate">
-                    <a href="d:/Certificates/UI_UX_1.pdf" target="_blank">
-                        <img src="images/certificates/ui_ux_1.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Foundations of User Experience Design</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/UI_UX_2.pdf" target="_blank">
-                        <img src="images/certificates/ui_ux_2.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Start the UX Design Process</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/UI_UX_3.pdf" target="_blank">
-                        <img src="images/certificates/ui_ux_3.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Build Wireframes and Prototypes</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/UI_UX_4.pdf" target="_blank">
-                        <img src="images/certificates/ui_ux_4.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Conduct Research and Test</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/Oracle_DBMS.pdf" target="_blank">
-                        <img src="images/certificates/oracle.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Database Foundations</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/Networking_Essential.pdf" target="_blank">
-                        <img src="images/certificates/networking.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Networking Essentials</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/PacketTraker.pdf" target="_blank">
-                        <img src="images/certificates/packetTracker.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Introduction to Packet Tracer</p>
-                </div>
-                <div class="certificate">
-                    <a href="d:/Certificates/Digital_Marketing.pdf" target="_blank">
-                        <img src="images/certificates/digitalMarketing.jpg" alt="Certificate Preview">
-                    </a>
-                    <p>Fundamentals of Digital Marketing</p>
-                </div>
-            </div>
-            
-            <hr>
-            <!-- ************************************************************* -->
-
-            <!-- *********************** Contact Me ************************** -->
-            <div class="contact_me">
-                <h2 class="h2">Get In Touch</h2>
-                <h3 class="h3">If you love hot wings as much as I do.</h3>
-                <p>Love hot wings as much as I do? Let's talk about how awesome they are!<br>We can code while we eat hot wings!
-                </p>
-                <a href="mailto:mohdzaidsarwar2001@gmail.com" class="btn">CONTACT ME</a>
-            </div>
-            <!-- ************************************************************* -->
-        </div>
-        <!-- ***************************************************************** -->
+            <!-- Nav Links -->
+            <ul class="nav-links" id="navLinks">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#certificates">Certificates</a></li>
+              <!-- <li><a href="#gems">Gems</a></li> -->  
+            </ul>
         
-        <!-- ************************* Footer ******************************** -->
-        <div class="bottom_container">
-            <a href="https://www.linkedin.com/in/mohd-zaid-sarwar-72a3871b0/" class="footer_link" target="_blank">LinkedIn</a>
-            <a href="https://twitter.com/iamzaidsarwar" class="footer_link" target="_blank">Twitter</a>
-            <a href="https://www.instagram.com/iamzaidsarwar_/?hl=en" class="footer_link" target="_blank">Instagram</a>
-            <a href="https://github.com/imzaidsarwar/" class="footer_link" target="_blank">Git Hub</a>
-            <a href="https://medium.com/@mohdzaidsarwar2001_50726" class="footer_link" target="_blank">Blog</a>
-            <p class="copy">© 2025 Zaid Sarwar @ sarwar.com</p>
-        </div>  
-        <!-- ***************************************************************** -->  
-    </body>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+
+        </nav>
+
+
+        <!-- Div for picture and link -->
+        <div class="profile-section">
+
+            <!-- Div for Name -->
+            <div class="profile-text">
+
+                <p class="intro">Hi, I am<br> <span >Zaid Sarwar.</span> </p>
+
+                <div class="social-icons">
+                    
+                 
+                    <a href="images/iamzaidsarwar.pdf" target="_blank" class="resume-btn">My<br>Resume</a>
+                    
+                    <div class="social-links">
+                        <a target="_blank" href="https://medium.com/@mohdzaidsarwar2001_50726" >
+                            <img src="images/blog.png" alt="Medium" srcset="">
+
+                        </a>
+                        
+                        <a target="_blank" href="https://imzaidsarwar.github.io/Portfolio/">
+                            <img src="images/web-link.png" alt="Github" srcset="">
+                        </a>
+                        
+                        <a target="_blank" href="https://github.com/imzaidsarwar">
+                            <img src="images/github.png" alt="" srcset="">
+                        </a>
+                        
+                        <a target="_blank" href="https://www.linkedin.com/in/mohd-zaid-sarwar-72a3871b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            <img src="images/linkedin.png" alt="linkedin" srcset="">
+                        </a>
+
+                        <a target="_blank" href="https://leetcode.com/u/iamzaidsarwar_">
+                            <img src="images/leetcodeLight-b0e225da.svg" alt="Leetcode" srcset="">
+                        </a>
+
+                        <a target="_blank" href="mailto:mohdzaidsarwar2001@gmail.com">
+                            <img src="images/gmail.png" alt="Gmail" srcset="">
+                        </a>
+                
+                    </div>
+  
+                </div>
+
+                <p class="typing-text">I am a
+                    <span id="dynamic-text"></span>
+                    <span id="cursor">|</span>
+                </p>
+
+            </div>
+
+            <!-- Div for picture -->
+            <div class="profile-image">
+                <img src="images/middle_img.gif" alt="">
+            </div>
+        </div>
+        
+        <!-- About Section -->
+        <section id="about" class="about-section">
+
+            <div class="about-container">
+
+                <h4>About Me</h4>
+    
+                <p>
+                    Hi, I'm Mohd Zaid Sarwar — a <strong>Software Engineer</strong> and <strong>Full Stack Developer</strong> with a background in the telecom industry.  
+                    During my tenure I work on several programing languages including <strong>C, C# </strong>and <strong>Java</strong>.  
+                  </p>
+                  <p>
+                    I started my career as a trainee and grew into a permanent role, where I’ve contributed to several high-impact projects.  
+                    My experience includes working on development of <strong>operating system of sim-cards.</strong>
+                  </p>
+                  <p>
+                    When I'm not coding, you’ll probably find me trying out new food (yes, I'm a big foodie! 🍜).  
+                </p>
+    
+            </div>
+
+        </section>
+
+        <section id="skills" class="skills-section">
+            
+            <h4>Tech Stack</h4>
+            
+
+            <div class="skills-container">
+
+                <div class="skill-item">
+
+                    <img src="images/c.png" alt="Html">
+                    <span class="skill-name">C</span>
+
+                </div>
+
+                <div class="skill-item">
+
+                    <img src="images/cpp.png" alt="Html">
+                    <span class="skill-name">C++</span>
+
+                </div>
+
+                <div class="skill-item">
+
+                    <img src="images/csh.png" alt="Html">
+                    <span class="skill-name">C#</span>
+
+                </div>
+
+                <div class="skill-item">
+
+                    <img src="images/java.png" alt="Html">
+                    <span class="skill-name">Java</span>
+
+                </div>
+
+                <div class="skill-item">
+
+                    <img src="images/html.png" alt="Html">
+                    <span class="skill-name">Html</span>
+
+                </div>
+
+                <div class="skill-item">
+
+                    <img src="images/css.png" alt="">
+                    <span class="skill-name">css</span>
+
+                </div>
+
+
+                <div class="skill-item">
+
+                    <img src="images/js.png" alt="">
+                    <span class="skill-name">JavaScript</span>
+
+                </div>
+
+
+                <div class="skill-item">
+
+                    <img src="images/reactjs.png" alt="">
+                    <span class="skill-name">Reactjs</span>
+
+                </div>
+
+
+                <div class="skill-item">
+
+                    <img src="images/sql.png" alt="">
+                    <span class="skill-name">Sql</span>
+
+                </div>
+
+
+                <div class="skill-item">
+
+                    <img src="images/git.png" alt="">
+                    <span class="skill-name">Git</span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+        
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates-section">
+            <h4>Certificates</h4>
+
+            <ul class="certificate-list">
+                <li>
+                    <span>Introduction to HTML5</span>
+                    <a href="certificates/HTML.pdf" target="_blank" class="view-btn">View &#8599</a>
+                </li>
+                <li>
+                    <span>Introduction to CSS3</span>
+                    <a href="certificates/CSS.pdf" target="_blank" class="view-btn">View &#8599</a>
+                </li>
+                <li>
+                    <span>Advanced Styling with Responsive Design</span>
+                    <a href="certificates/advanceCSS.pdf" target="_blank" class="view-btn">View &#8599</a>
+                </li>
+                <li>
+                    <span>Interactivity with JavaScript</span>
+                    <a href="certificates/JavaScript.pdf" target="_blank" class="view-btn">View &#8599</a>
+                </li>
+                <li>
+                    <span>Database Foundations</span>
+                    <a href="certificates/Oracle_DBMS.pdf" target="_blank" class="view-btn">View &#8599</a>
+                </li>
+                <li>
+                    <span>Networking Essentials</span>
+                    <a href="certificates/Networking_Essential.pdf" target="_blank" class="view-btn">View &#8599</a>
+                </li>
+                <li>
+                    <span>Introduction to Packet Tracer</span>
+                    <a href="certificates/PacketTraker.pdf" target="_blank" class="view-btn">View &#8599</a>
+                </li>
+            </ul>
+        </section>
+
+
+        <!-- Recommendations Section -->
+        <!-- <section id="gems" class="gems-section"> -->
+            <!-- <h4>Best Finds</h4>
+    
+            <div class="gems-container"> -->
+                <!-- YouTube Recommendation -->
+                <!-- <div class="gems-item">
+                    <h3>YouTube Channel</h3>
+                    <p>Check out this amazing channel for coding tips and tricks:</p>
+                    <a href="https://www.youtube.com/@TraversyMedia" target="_blank" class="gems-link">
+                        Traversy Media
+                    </a>
+                </div> -->
+                
+                <!-- Book Recommendation -->
+                <!-- <div class="gems-item">
+                    <h3>Book</h3>
+                    <p>If you’re a reader, you must read this:</p>
+                    <img src="images/biryani.jpg" alt="Biryani" class="gems-image" />
+                    <p class="food-name">Biryani</p>
+                </div> -->
+
+                <!-- Food Recommendation -->
+                <!-- <div class="gems-item">
+                    <h3>Food</h3>
+                    <p>If you’re a foodie, you must try this:</p>
+                    <img src="images/biryani.jpg" alt="Biryani" class="gems-image" />
+                    <p class="food-name">Biryani</p>
+                </div> -->
+
+                <!-- Food Recommendation -->
+                <!-- <div class="gems-item">
+                    <h3>Food</h3>
+                    <p>If you’re a foodie, you must try this:</p>
+                    <img src="images/biryani.jpg" alt="Biryani" class="gems-image" />
+                    <p class="food-name">Biryani</p>
+                </div> -->
+            <!-- </div>
+        </section>  -->
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p>&copy; 2025 Zaid. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
 </html>
