@@ -494,3 +494,16 @@ body {
         font-size: 20px;
     }
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .dynamic-text {
+      font-size: 5vw; /* Larger font size on smaller screens */
+    }
+}
+  
+@media (max-width: 480px) {
+    .dynamic-text {
+      font-size: 6vw;
+    }
+}
