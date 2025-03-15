@@ -135,27 +135,6 @@ body {
     
 }
 
-.resume-btn {
-    background-color: #09122C;
-    color: white;
-    font-size: 15px;
-    border: none;
-    border-radius: 20px;
-    text-decoration: none;
-    transition: color 0.3s ease, transform 0.2s ease;
-    padding: 15px;
-    text-align: left;
-    transition: background-color 0.3s;
-}
-
-
-.resume-btn:hover {
-    background-color: #27445D;
-    transform: scale(1.2);
-    color: white;
-}
-
-
 .social-links {
     display: flex;
     justify-content: space-between;
@@ -175,7 +154,6 @@ body {
 .social-links img:hover {
     transform: scale(1.2);
 }
-
 .profile-image {
 
     flex: 1;
