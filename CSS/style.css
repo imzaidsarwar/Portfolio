@@ -1,3 +1,4 @@
+@ -0,0 +1,496 @@
 /* Basic styling*/
 *{
     margin: 0;
@@ -119,20 +120,7 @@ body {
     display: inline-block;
     animation: blink 0.7s infinite;
 }
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .typing-text {
-      font-size: 5vw; /* Larger font size on smaller screens */
-    }
-  }
   
-  @media (max-width: 480px) {
-    .typing-text {
-      font-size: 6vw;
-    }
-}
-
 @keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 0; }
@@ -189,31 +177,6 @@ body {
     transform: scale(1.2);
 }
 
-/* ✅ Responsive Adjustments */
-@media (max-width: 768px) {
-    .social-links {
-        justify-content: flex-start;
-    }
-
-    /* Shift last 3 icons to next row */
-    .social-links a:nth-last-child(-n + 3) {
-        flex-basis: calc(33.33% - 15px); /* Push to next row */
-        display: flex;
-        justify-content: flex-start;
-    }
-}
-
-@media (max-width: 480px) {
-    .social-links a {
-        width: 35px;
-        height: 35px;
-    }
-
-    /* ✅ Keep last 3 in the same row even on smaller screens */
-    .social-links a:nth-last-child(-n + 3) {
-        flex-basis: calc(33.33% - 10px); /* Equal spacing */
-    }
-}   
 .profile-image {
 
     flex: 1;
@@ -530,18 +493,5 @@ body {
   
     .profile-text p {
         font-size: 20px;
-    }
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .typing-text {
-      font-size: 5vw; /* Larger font size on smaller screens */
-    }
-}
-  
-@media (max-width: 480px) {
-    .typing-text {
-      font-size: 6vw;
     }
 }
