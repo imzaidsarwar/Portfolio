@@ -23,6 +23,7 @@ body {
     align-items: center;
     color: #09122C;
     top: 0;
+    margin-top: 1rem;
 
 }
 
@@ -32,6 +33,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 1px;
+    margin-left: 4rem;
 }
 
 .nav-links {
@@ -39,6 +41,7 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin-right: 4rem;
 }
 
 .nav-links li {
@@ -304,7 +307,7 @@ body {
     background: linear-gradient(145deg, #e0e0e0, #B17F59);
     box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #EDE8DC;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
     font-size: 18px;
     color: #333;
     transition: transform 0.2s ease;
@@ -313,7 +316,24 @@ body {
 .certificate-list li:hover {
     transform: scale(1.02);
 }
-  
+
+.certificates-grid
+{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.certificates-grid-left
+{
+    margin-left: 3rem;
+}
+
+.certificates-grid-right
+{
+    margin-right: 3rem;
+}
+
 /* View Button */
 .view-btn {
     background-color: #007bff;
