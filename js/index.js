@@ -32,7 +32,7 @@ function toggleMenu() {
 
 
 // Typewriter Effect
-const roles = ["Software Engineer.", "Full Stack Developer.", "Mathematics Enthusiast."];
+const roles = ["Software Engineer.", "Full Stack Developer.", "AI Enthusiast.", "Mathematics Enthusiast."];
 let roleIndex = 0;
 let charIndex = 0;
 const typingElement = document.getElementById('dynamic-text');
